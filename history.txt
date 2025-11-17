@@ -1,0 +1,129 @@
+1  git init
+    2  git commit -m "second commit"
+    3  Enzo
+    4  git restore
+    5  lhghg
+    6  /documents/Enzo
+    7  git init
+    8  git add -m
+    9  git reset
+   10  git commit
+   11  git status
+   12  git add
+   13  git main
+   14  git --help
+   15  git add status
+   16  git add Enzo
+   17  git add azriel.quijano@olivarezcollege.edu.ph
+   18  git push
+   19  git remote add <Enzo> <url>
+   20  git remote add Enzo
+   21  git config --global user.name "Enzo"
+   22  git push
+   23  git push Enzo
+   24  git push --set-upstream Enzo master
+   25  git help config
+   26  git history
+   27  git --help
+   28  start
+   29  log
+   30  git log
+   31  how to change name
+   32  git name
+   33  git help -a
+   34  git config --global user.email "azriel.quijano@olivarezcollege.edu.ph"
+   35  git commit
+   36  git add
+   37  ls
+   38  cd documents
+   39  cd ..
+   40  cd documents
+   41  ls - al
+   42  cd ..
+   43  ls - al
+   44  cd documents
+   45  ls-al
+   46  ls - al
+   47  mkclir Velasco
+   48  mkdir Velasco
+   49  cd Velasco
+   50  ls
+   51  ls-al
+   52  touch test.txt
+   53  ls
+   54  ls-al
+   55  ls - al
+   56  ls -al
+   57  touch readme.md
+   58  ls
+   59  rm text.txt
+   60  ls
+   61  rm test.txt
+   62  ls
+   63  mkdir readdkd
+   64  rm readdkd
+   65  start readme.md
+   66  mkdir gis.md
+   67  dlt gis.md
+   68  dt gis.md
+   69  dl gis.md
+   70  rm gis.md
+   71  touch bert
+   72  rm bert
+   73  ls
+   74  git config --global user.name "<lemon454>"
+   75  git config --global user.name Velasco
+   76  git config --global user.email tangerinlemon33@gmail.com
+   77  git config --global user.email "tangerinlemon33@gmail.com"
+   78  git config --global user.email  tangerinlemon33@gmail.com
+   79  git config --global user.email
+   80  git config --global user.name
+   81  git init
+   82  ls -al
+   83  cd.git
+   84  cd .git
+   85  ls
+   86  cd..
+   87  cd ..
+   88  git status
+   89  git add .
+   90  git status
+   91  git commit -m "first commit"
+   92  git branch
+   93  git branch M
+   94  git branch -M main
+   95  git remote add origin https://github.com/lemon454/Velasco.git
+   96  git push -u origin main
+   97  git push -u origin main
+   98  git push -u origin main
+   99  git push -u origin main
+  100  git add .
+  101  git status
+  102  git commit -m
+  103  git commit -m "second commit"
+  104  git push
+  105  ls
+  106  cd ..
+  107  git clone https://github.com/lemon454/Velasco.git
+  108  cd Velasco
+  109  history
+  110  history.txt
+  111  cd documents
+  112  cd ..
+  113  cd Velasco
+  114  git add
+  115  git add .
+  116  git status
+  117  touch history.txt
+  118  ls
+  119  git add
+  120  git add .
+  121  git status
+  122  git commit -m "3rdcommit"
+  123  git push
+  124  history
+  125  git add .
+  126  git status
+  127  start Velasco
+  128  start history.txt
+  129  history
