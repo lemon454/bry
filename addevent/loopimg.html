@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Loop</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+      margin: 0;
+    }
+    .slideshow {
+      width: 400px;
+      height: 300px;
+      overflow: hidden;
+      position: relative;
+    }
+    .slideshow img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+    .slideshow img.active {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="slideshow">
+    <img src="FE.PNG" class="active" alt="">
+    <img src="FI.PNG" alt="">
+    <img src="FE.PNG" alt="">
+    <img src="FI.PNG" alt="">
+    <img src="FE.PNG" alt="">
+    <img src="FI.PNG" alt="">
+  </div>
+
+  <script>
+    const images = document.querySelectorAll('.slideshow img');
+    let current = 0;
+
+    setInterval(() => {
+      images[current].classList.remove('active'); // hide current
+      current = (current + 1) % images.length;    // next image
+      images[current].classList.add('active');    // show next
+    }, 2000); // change image every 2 seconds
+  </script>
+</body>
+</html>

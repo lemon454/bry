@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="clock">
+    <div class="numbers">
+        <span style="--i:1">1</span>
+        <span style="--i:2">2</span>
+        <span style="--i:3">3</span>
+        <span style="--i:4">4</span>
+        <span style="--i:5">5</span>
+        <span style="--i:6">6</span>
+        <span style="--i:7">7</span>
+        <span style="--i:8">8</span>
+        <span style="--i:9">9</span>
+        <span style="--i:10">10</span>
+        <span style="--i:11">11</span>
+        <span style="--i:12">12</span>
+    </div>
+
+    <div id="hour" class="hand hour"></div>
+    <div id="min" class="hand min"></div>
+    <div id="sec" class="hand sec"></div>
+
+    <div class="center-dot"></div>
+</div>
+
+
+<div class="container">
+    <div class="box">
+    <div class="screen">
+      <input type="text" name="inscrn" id="inscrn" class="inscrn" placeholder="0">
+    </div>
+
+    <div class="btn">
+      <button onclick="clr()">C</button>
+      <button onclick="bck()">B</button>
+      <button onclick="insrt('/')">/</button>
+      <button onclick="insrt('*')">*</button>
+      <button onclick="insrt(7)">7</button>
+      <button onclick="insrt(8)">8</button>
+      <button onclick="insrt(9)">9</button>
+      <button onclick="insrt('-')">-</button>
+      <button onclick="insrt(4)">4</button>
+      <button onclick="insrt(5)">5</button>
+      <button onclick="insrt(7)">6</button>
+      <button onclick="insrt('+')">+</button>
+      <button onclick="insrt(1)">1</button>
+      <button onclick="insrt(2)">2</button>
+      <button onclick="insrt(3)">3</button>
+      <button class="equal" onclick="totl()">=</button>
+      <button class="zero" onclick="insrt(0)">0</button>
+      <button>.</button>
+    </div>
+  </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>

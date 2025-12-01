@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(43, 43, 43);
+}
+.container{
+  padding: 50px;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px ;
+}
+.box img{
+  width: 30px;
+  height: 120px;
+  object-fit: cover;
+  transition: all 0.4s ease-in-out;  
+  opacity: 0.6;                  
+  cursor: pointer;    
+}
+
+.box img.active {
+  width: 800px;
+  opacity: 1;                         
+}
+
+.m1{
+  background-color: grey;
+  box-shadow: 0 3px 80px grey;
+  filter: blur();
+  padding: 20px;
+}
+.m2{
+  background-color: silver;
+  box-shadow: 0 3px 80px silver;
+  filter: blur();
+  padding: 20px;
+}
+.m3{
+  background-color: rgba(19, 104, 45, 0.418);
+  box-shadow: 0 3px 80px rgba(19, 104, 45, 0.418);
+  filter: blur();
+  padding: 20px;
+}
+.types{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: bisque;
+  text-shadow: 0 3px 50px;
+}
+.parts img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.parts.show img {
+  opacity: 1;
+  transform: scale(1);
+}
+.parts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 50px;
+}
